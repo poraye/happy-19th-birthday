@@ -12,3 +12,8 @@ Responsive Web -- bisa langsung disesuikan di file css --> style.css
 - Index Code : Septian Dwi Cahyo (@Septiandwica)
 
 Thanks to codepan and mdusmanansari
+
+## Local modification note
+This project was adapted locally for personal use and as a gift.
+The original authorship of the base code is preserved as shown above.
+Last modified on: 2026-06-26

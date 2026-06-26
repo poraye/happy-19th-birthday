@@ -20,6 +20,47 @@ body {
   perspective: 1000px;
 }
 
+.birthday-message {
+  position: fixed;
+  top: 2vmin;
+  left: 50%;
+  transform: translateX(-50%);
+  width: min(92vw, 860px);
+  max-height: 42vh;
+  overflow: auto;
+  padding: 1rem 1.2rem;
+  border-radius: 14px;
+  border: 1px solid rgba(180, 230, 255, 0.28);
+  background: rgba(4, 10, 20, 0.55);
+  box-shadow: 0 0 25px rgba(80, 180, 220, 0.2);
+  color: #e8f8ff;
+  z-index: 300;
+  line-height: 1.45;
+  backdrop-filter: blur(4px);
+}
+
+.birthday-message h1 {
+  margin-bottom: 0.45rem;
+  font-size: clamp(1rem, 2.2vw, 1.5rem);
+}
+
+.birthday-message p {
+  margin-bottom: 0.6rem;
+  font-size: clamp(0.78rem, 1.55vw, 1rem);
+}
+
+.birthday-message .closing {
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+@media (max-width: 700px) {
+  .birthday-message {
+    max-height: 48vh;
+    padding: 0.85rem 0.95rem;
+  }
+}
+
 .night {
   position: fixed;
   left: 50%;
